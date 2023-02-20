@@ -1,0 +1,83 @@
+[
+{
+    "id": "engine_turbine_small_wright",
+    "copy-from": "gas_turbine_engine",
+    "type": "vehicle_part",
+    "item": "small_turbine_engine_wright",
+    "description": "A small but powerful gas turbine engine, suitable for powering a small one or two-seat helicopter. This one has been upgraded using the designs you found in a lab journal for reduced fuel use and slightly increased performance.",
+    "durability": 400,
+    "epower": -10,
+    "power": 1150000,
+    "energy_consumption": "200000 W",
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 3, 5 ] },
+      { "item": "steel_lump", "count": [ 50, 60 ] },
+      { "item": "steel_chunk", "count": [ 60, 80 ] },
+      { "item": "scrap", "count": [ 100, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 8 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 3 ], [ "repair_welding_alloys", 2 ], [ "vehicle_wrench_2", 1 ], [ "vehicle_screw", 1 ] ]
+      }
+    },
+    "damage_reduction": { "all": 60 }
+  },
+  {
+    "id": "engine_turbine_medium_wright",
+    "copy-from": "gas_turbine_engine",
+    "type": "vehicle_part",
+    "item": "medium_turbine_engine_wright",
+    "description": "A heavy-duty gas turbine engine, like those typically found in a Medevac, Apache, or Blackhawk helicopter.This one has been upgraded using the designs you found in a lab journal for reduced fuel use and slightly increased performance.",
+    "durability": 400,
+    "epower": -10,
+    "power": 1600000,
+    "energy_consumption": "400000 W",
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 6, 8 ] },
+      { "item": "steel_lump", "count": [ 60, 75 ] },
+      { "item": "steel_chunk", "count": [ 75, 90 ] },
+      { "item": "scrap", "count": [ 150, 180 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 9 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 5 ], [ "repair_welding_alloys", 3 ], [ "vehicle_wrench_2", 1 ], [ "vehicle_screw", 1 ] ]
+      }
+    },
+    "damage_reduction": { "all": 65 }
+  },
+  {
+    "id": "engine_turbine_large_wright",
+    "copy-from": "gas_turbine_engine",
+    "type": "vehicle_part",
+    "item": "large_turbine_engine_wright",
+    "description": "A huge gas turbine engine, used to lift large military helicopters such as the V-22 Osprey.This one has been upgraded using the designs you found in a lab journal for reduced fuel use and slightly increased performance.",
+    "durability": 400,
+    "epower": -10,
+    "power": 5000000,
+    "energy_consumption": "1000000 W",
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 10, 12 ] },
+      { "item": "steel_lump", "count": [ 120, 150 ] },
+      { "item": "steel_chunk", "count": [ 150, 180 ] },
+      { "item": "scrap", "count": [ 300, 360 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 9 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 10 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 7 ], [ "repair_welding_alloys", 5 ], [ "vehicle_wrench_2", 1 ], [ "vehicle_screw", 1 ] ]
+      }
+    },
+    "damage_reduction": { "all": 70 }
+  }
+]

@@ -1,0 +1,10 @@
+[
+{
+    "id": "rare_mutation_books",
+    "type": "item_group",
+    "//": "Adding spell learning items to standard itemgroups",
+    "copy-from": "rare_mutation_books",
+    "subtype": "distribution",
+    "extend": { "entries": [ { "item": "journal_wright", "prob": 25 } ] }
+  }
+]

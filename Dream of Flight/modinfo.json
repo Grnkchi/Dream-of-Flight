@@ -1,0 +1,12 @@
+[
+{
+"type": "MOD_INFO",
+    "id": "dream_of_flight",
+    "name": "Dream of Flight",
+    "authors": [ "G4R5vb" ],
+    "description": "Makes rotors and airframes editable, adds a profession with the right proficiency to do so, and adds some new recipes including rotors and more efficient engines.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+	}
+	]

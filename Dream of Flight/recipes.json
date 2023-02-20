@@ -1,0 +1,243 @@
+[{
+		"result": "small_turbine_engine_wright",
+		"type": "recipe",
+		"activity_level": "MODERATE_EXERCISE",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_VEHICLE",
+		"skill_used": "fabrication",
+		"difficulty": 8,
+		"time": "300 m",
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": [
+			["journal_wright", 8]
+		],
+		"using": [
+			["welding_standard", 50]
+		],
+		"proficiencies": [{
+			"proficiency": "prof_basic_engines"
+		}, {
+			"proficiency": "prof_welding_basic"
+		}],
+		"qualities": [{
+			"id": "HAMMER",
+			"level": 2
+		}, {
+			"id": "SAW_M",
+			"level": 1
+		}],
+		"components": [
+			[
+				["pipe", 10]
+			],
+			[
+				["scrap", 90],
+				["steel_chunk", 30],
+				["steel_lump", 10]
+			],
+			[
+				["chain", 4]
+			],
+			[
+				["spring", 4]
+			],
+			[
+				["well_pump", 4]
+			],
+			[
+				["frame", 2]
+			],
+			[
+				["steel_plate", 2]
+			],
+			[
+				["small_turbine_engine", 1]
+			]
+		]
+	},
+	{
+		"result": "medium_turbine_engine_wright",
+		"type": "recipe",
+		"activity_level": "MODERATE_EXERCISE",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_VEHICLE",
+		"skill_used": "fabrication",
+		"difficulty": 9,
+		"time": "420 m",
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": [
+			["journal_wright", 8]
+		],
+		"using": [
+			["welding_standard", 75]
+		],
+		"proficiencies": [{
+			"proficiency": "prof_basic_engines"
+		}, {
+			"proficiency": "prof_welding_basic"
+		}],
+		"qualities": [{
+			"id": "HAMMER",
+			"level": 2
+		}, {
+			"id": "SAW_M",
+			"level": 1
+		}],
+		"components": [
+			[
+				["pipe", 20]
+			],
+			[
+				["scrap", 180],
+				["steel_chunk", 60],
+				["steel_lump", 20]
+			],
+			[
+				["chain", 8]
+			],
+			[
+				["spring", 8]
+			],
+			[
+				["well_pump", 8]
+			],
+			[
+				["frame", 4]
+			],
+			[
+				["steel_plate", 4]
+			],
+			[
+				["medium_turbine_engine", 1]
+			]
+		]
+	},
+	{
+		"result": "large_turbine_engine_wright",
+		"type": "recipe",
+		"activity_level": "MODERATE_EXERCISE",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_VEHICLE",
+		"skill_used": "fabrication",
+		"difficulty": 10,
+		"time": "600 m",
+		"reversible": false,
+		"autolearn": false,
+		"book_learn": [
+			["journal_wright", 8]
+		],
+		"using": [
+			["welding_standard", 100]
+		],
+		"proficiencies": [{
+			"proficiency": "prof_basic_engines"
+		}, {
+			"proficiency": "prof_welding_basic"
+		}],
+		"qualities": [{
+			"id": "HAMMER",
+			"level": 2
+		}, {
+			"id": "SAW_M",
+			"level": 1
+		}],
+		"components": [
+			[
+				["pipe", 30]
+			],
+			[
+				["scrap", 270],
+				["steel_chunk", 90],
+				["steel_lump", 30]
+			],
+			[
+				["chain", 12]
+			],
+			[
+				["spring", 12]
+			],
+			[
+				["well_pump", 12]
+			],
+			[
+				["frame", 3]
+			],
+			[
+				["steel_plate", 3]
+			],
+			[
+				["large_turbine_engine", 1]
+			]
+		]
+	},
+	{
+		"result": "small_helicopter_rotor",
+		"type": "recipe",
+		"activity_level": "BRISK_EXERCISE",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_VEHICLE",
+		"skill_used": "fabrication",
+		"difficulty": 8,
+		"time": "6 h",
+		"book_learn": [
+			["journal_wright", 6]
+		],
+		"autolearn": true,
+		"using": [
+			["blacksmithing_standard", 100],
+			["steel_standard", 40]
+		],
+		"qualities": [{
+			"id": "CHISEL",
+			"level": 3
+		}],
+		"proficiencies": [{
+				"proficiency": "prof_metalworking"
+			},
+			{
+				"proficiency": "prof_blacksmithing"
+			}
+		],
+		"tools": [
+			[
+				["swage", -1]
+			]
+		]
+	},
+	{
+		"result": "heavy_duty_military_rotor",
+		"type": "recipe",
+		"activity_level": "BRISK_EXERCISE",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_VEHICLE",
+		"skill_used": "fabrication",
+		"difficulty": 8,
+		"time": "10 h",
+		"book_learn": [
+			["journal_wright", 6]
+		],
+		"autolearn": true,
+		"using": [
+			["blacksmithing_standard", 150],
+			["steel_standard", 75]
+		],
+		"qualities": [{
+			"id": "CHISEL",
+			"level": 3
+		}],
+		"proficiencies": [{
+				"proficiency": "prof_metalworking"
+			},
+			{
+				"proficiency": "prof_blacksmithing"
+			}
+		],
+		"tools": [
+			[
+				["swage", -1]
+			]
+		]
+	}
+]

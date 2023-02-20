@@ -1,0 +1,35 @@
+[{
+    "type": "profession",
+    "id": "illegal_pilot",
+    "name": "Illegal Pilot",
+    "description": "You had several charges against you for constructing and flying helicopters without 'official' qualifications. With nobody to stop you now, you shall fly once more.",
+    "points": 4,
+    "//": "Look up Tiira 1 / Tiira 2 / Tiira 3.",
+    "skills": [
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "mechanics" },
+	  { "level": 3, "name": "driving" }
+    ],
+    "proficiencies": [
+      "prof_aircraft_mechanic",
+      "prof_helicopter_pilot",
+      "prof_basic_engines",
+      "prof_metalworking",
+      "prof_welding_basic",
+      "prof_welding"
+    ],
+    "items": {
+      "both": {
+        "items": [ "slingpack", "tank_top", "jeans", "socks", "boots_steel", "duct_tape", "screwdriver", "wristwatch", "hoodie", "mag_cars" ],
+        "entries": [
+          { "item": "goggles_welding", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "charged_smart_phone" },
+          { "item": "wrench", "container-item": "tool_belt" },
+          { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 500, "container-item": "welder" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+    }
+]
